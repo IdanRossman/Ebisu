@@ -9,7 +9,8 @@
       "distribution": "internal",
       "env": {
         "EXPO_PUBLIC_API_URL": "https://ebisu-production.up.railway.app/api",
-        "EXPO_PUBLIC_SUPABASE_URL": "https://subpbwizjrogpxwoolri.supabase.co"
+        "EXPO_PUBLIC_SUPABASE_URL": "https://subpbwizjrogpxwoolri.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_ANON_KEY": "sb_publishable_UPHFS74ITqf3no1X_WoRjw_b2E6xf1n"
       },
       "ios": {
         "simulator": false
