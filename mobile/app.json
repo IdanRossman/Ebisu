@@ -37,7 +37,11 @@
       "expo-video"
     ],
     "extra": {
-      "router": {}
-    }
+      "router": {},
+      "eas": {
+        "projectId": "92536ce6-4d07-4952-9a19-a464480e11c0"
+      }
+    },
+    "owner": "idanrossman"
   }
 }
