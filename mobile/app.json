@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "Ebisu",
+    "slug": "ebisu",
+    "scheme": "ebisu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon-ebisu.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": false,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "ios": {
+      "bundleIdentifier": "com.idanrossman.ebisu",
+      "supportsTablet": false,
+      "usesAppleSignIn": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon-ebisu.png",
+        "backgroundColor": "#31948F"
+      },
+      "edgeToEdgeEnabled": true,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      "expo-apple-authentication",
+      "@react-native-community/datetimepicker",
+      "expo-video"
+    ],
+    "extra": {
+      "router": {}
+    }
+  }
+}
